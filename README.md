@@ -7,6 +7,7 @@ Welcome to my website!
 Description: "Education and Awards" Section. Contains clickable boxes showing my education and awards in academics, music, and dance.
 
 Screenshots
+https://github.com/musicalcat/HCS-Project-1/blob/master/Education%20and%20Awards.png
 
 ### Added Feature #2
 
