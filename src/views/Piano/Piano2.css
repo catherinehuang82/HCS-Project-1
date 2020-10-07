@@ -1,13 +1,13 @@
-.experience-background {
+.performance-background {
   display: flex;
 }
 
-.timeline-background {
+.media-background {
   margin-top: 50px;
   width: 50%;
 }
 
-.timeline-item {
+.media-item {
   display: flex;
   width: 50%;
   height: 120px;
@@ -18,13 +18,13 @@
   transition: all 0.2s ease;
 }
 
-.timeline-item:hover {
+.media-item:hover {
   -webkit-transform: scale(1.25);
   transform: scale(1.25);
   background-color: #dcf1ff;
 }
 
-.timeline-ball {
+.media-ball {
   position: absolute;
   width: 24px;
   height: 24px;
@@ -33,20 +33,20 @@
   text-align: center;
 }
 
-.experience-info {
+.performance-info {
   text-align: center;
   padding: 24px;
   font-size: 14px;
 }
 
-.experience-info h1, h2, h3, h4,
+.performance-info h1, h2, h3, h4,
 p {
   margin: 0;
   text-align: center;
   padding: 10px;
 }
 
-.highlight-background {
+.pianohighlight-background {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -60,7 +60,7 @@ p {
   margin: 32px;
 }
 
-.highlight-background h1,
+.pianohighlight-background h1,
 h4,
 p {
   margin: 8px;

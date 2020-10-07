@@ -1,66 +1,74 @@
-.experience-background {
+.performance-background {
   display: flex;
 }
 
-.timeline-background {
-  margin-top: 50px;
+.media-background {
+  margin-top: 20px;
   width: 50%;
 }
 
-.timeline-item {
+.media-item {
   display: flex;
   width: 50%;
   height: 120px;
-  font-size: 11px;
+  font-size: 10px;
+  color: #2A6872;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   transition: all 0.2s ease;
+  margin-bottom: 20px;
 }
 
-.timeline-item:hover {
+.media-item:hover {
   -webkit-transform: scale(1.25);
   transform: scale(1.25);
-  background-color: #dcf1ff;
+  background-color: #d3e6e9;
 }
 
-.timeline-ball {
+.media-ball {
   position: absolute;
   width: 24px;
   height: 24px;
   border-radius: 12px;
-  background-color: #dcf1ff;
+  background-color: #d3e6e9;
   text-align: center;
 }
 
-.experience-info {
+.performance-info {
   text-align: center;
   padding: 24px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-.experience-info h1, h2, h3, h4,
+.performance-info h1, h4,
 p {
   margin: 0;
   text-align: center;
   padding: 10px;
 }
+.education-info p {
+  margin: 0;
+  text-align: left;
+  padding: 10px;
+}
 
-.highlight-background {
+.pianohighlight-background {
   display: flex;
   flex-direction: column;
   width: 50%;
   height: calc(100%);
-  background: #e5dcff;
+  background: #eeeeee;
   position: -webkit-sticky;
   position: sticky;
   top: 48px;
   justify-content: center;
   align-items: center;
   margin: 32px;
+  padding: 10px;
 }
 
-.highlight-background h1,
+.pianohighlight-background h1,
 h4,
 p {
   margin: 8px;

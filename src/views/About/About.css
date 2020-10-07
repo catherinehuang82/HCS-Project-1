@@ -1,14 +1,19 @@
 .intro-background {
+  display: flex;
+  flex-direction: row;
 }
 
 .intro-item {
+  display: flex;
+  flex: 1; /* for items styled using these class, give them 1 pt space  */
+  padding: 10px;
 }
 
 .intro-item h1,
 h2,
 ul,
 li {
-  margin: 4px 0;
+  margin: 5px 0;
 }
 
 .intro-item p {

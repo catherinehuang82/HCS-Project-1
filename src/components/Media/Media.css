@@ -1,4 +1,4 @@
-.project-background {
+.media-background {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -8,15 +8,16 @@
   color: black;
   padding: 16px 0;
   margin-bottom: 20px;
+  font-size: 15px;
 }
 
-.project-background:hover {
+.media-background:hover {
   transform: translateX(8px);
-  color: #320951;
-  background-image: linear-gradient(to left, white, #ffeef4);
+  color: #12214b;
+  background-image: linear-gradient(to right, white, #eef4f9);
 }
 
-.project-image.resize {
+.media-image {
   display: flex;
   flex: 1;
   justify-content: center;
@@ -24,7 +25,7 @@
   vertical-align: middle;
 }
 
-.project-info {
+.media-info {
   flex: 2;
   padding: 16px;
 }

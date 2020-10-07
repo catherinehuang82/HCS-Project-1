@@ -3,13 +3,21 @@
   flex-direction: column;
   width: 60%;
   align-items: center;
-  margin: 16px 0px;
+  margin: 10px 10px;
 }
 
 .info-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .info-item {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .info-link {
@@ -20,9 +28,18 @@
   color: #666666;
   text-decoration: none;
   font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .nav-background {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: center;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 6px;
 }
 
 .nav-item {
@@ -36,4 +53,10 @@
   text-decoration: none;
   font-weight: 500;
   color: gray;
+  transitoin: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: black;
+  transform: scale(1.2);
 }

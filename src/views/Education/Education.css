@@ -1,13 +1,13 @@
-.experience-background {
+.education-background {
   display: flex;
 }
 
-.timeline-background {
+.list-background {
   margin-top: 50px;
   width: 50%;
 }
 
-.timeline-item {
+.list-item {
   display: flex;
   width: 50%;
   height: 120px;
@@ -18,49 +18,55 @@
   transition: all 0.2s ease;
 }
 
-.timeline-item:hover {
+.list-item:hover {
   -webkit-transform: scale(1.25);
   transform: scale(1.25);
-  background-color: #dcf1ff;
+  background-color: #ffeade;
 }
 
-.timeline-ball {
+.list-ball {
   position: absolute;
   width: 24px;
   height: 24px;
   border-radius: 12px;
-  background-color: #dcf1ff;
+  background-color: #ffeade;
   text-align: center;
 }
 
-.experience-info {
+.education-info {
   text-align: center;
   padding: 24px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-.experience-info h1, h2, h3, h4,
+.education-info h1, h4,
 p {
   margin: 0;
   text-align: center;
   padding: 10px;
 }
+.education-info p {
+  margin: 0;
+  text-align: left;
+  padding: 10px;
+}
 
-.highlight-background {
+.educationhighlight-background {
   display: flex;
   flex-direction: column;
   width: 50%;
   height: calc(100%);
-  background: #e5dcff;
+  background: #fff8de;
   position: -webkit-sticky;
   position: sticky;
   top: 48px;
   justify-content: center;
   align-items: center;
   margin: 32px;
+  padding: 10px;
 }
 
-.highlight-background h1,
+.educationhighlight-background h1,
 h4,
 p {
   margin: 8px;

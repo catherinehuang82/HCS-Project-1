@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutScreen from "./views/About/About";
 import ExperienceScreen from "./views/Experience/Experience";
 import ProjectsScreen from "./views/Projects/Projects";
+import PianoScreen from "./views/Piano/Piano2";
+import EducationScreen from "./views/Education/Education";
 
 import Navbar from "./components/Navbar/Navbar";
 
@@ -23,6 +25,8 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/experience" component={ExperienceScreen} />
+          <Route path="/education" component={EducationScreen} />
+          <Route path="/piano" component={PianoScreen} />
           <Route path="/projects" component={ProjectsScreen} />
           <Route path={["/about", "/"]} component={AboutScreen} />
         </Switch>
